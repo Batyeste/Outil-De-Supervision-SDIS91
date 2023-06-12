@@ -1,0 +1,506 @@
+/**************************************************/
+/*Titres*/
+
+h1{
+	font-size: 36px;				/* Taille du texte */
+	font-weight: 600;				/* Epaisseur du texte */
+	color: #bcd1f9;					/* Couleur du texte */
+	text-align: center;				/* Alignement du texte */
+	text-transform: uppercase;		/* Mettre le texte en majuscule */
+	letter-spacing: 2px;			/* Espace entre les lettres */
+	margin-top: 20px;				/* Espace au dessus du titre */
+	margin-bottom: 20px;			/* Espace en dessous du titre */
+}
+
+h2 {
+	padding-top: 2%;				/* Espace au dessus du titre */
+	padding-bottom: 1%;				/* Espace en dessous du titre */
+	font-size: 30px;				/* Taille du texte */
+	font-weight: 600;				/* Epaisseur du texte */
+	color: #bcd1f9;				/* Couleur du texte */
+	text-align: center;				/* Alignement du texte */
+	text-transform: uppercase;		/* Mettre le texte en majuscule */
+	letter-spacing: 2px;			/* Espace entre les lettres */
+	margin-top: 20px;				/* Espace au dessus du titre */
+	margin-bottom: 20px;			/* Espace en dessous du titre */
+}
+
+h3 {
+margin-left: 20px;					/* Espace à gauche du titre */
+}
+
+/**************************************************/
+
+
+
+/**************************************************/
+/*Rapport avec la navbar*/
+:root{						
+	--hauteur-menu: 60px;					/* Hauteur de la barre de navigation */		
+}
+* {
+	
+	padding: 0px;							/* Marge intérieur */
+	font-family: Montserrat, sans-serif;	/* Police de caractère */
+  }	
+
+/**************************************************/
+
+
+
+/**************************************************/
+/*class custom*/
+
+.Groupement{
+text-align: center;							/* Alignement du texte */
+}
+	
+.supprimer{
+		position: absolute;					/* Positionnement absolu */
+	   right: 120px;						/* Positionnement à droite */
+	  
+}
+
+/**************************************************/
+
+
+/**************************************************/
+/*section*/
+
+section {
+	max-width: 1000px;						/* Largeur maximale de la section */
+	width: 100%;							/* Largeur de la section */
+	margin: auto;							/* Centrer la section */
+	padding: 0px;							/* Marge intérieur */
+	overflow: auto;							/* Défilement automatique */
+}
+
+/**************************************************/
+
+
+
+/**************************************************/
+/*Body & contenus*/
+body {
+	margin: 0;										/* Marge extérieur */
+	color: #b8c1ec;								/* Couleur du texte */
+	background: #232946;							/* Couleur de fond */
+	font: 600 16px/18px 'Open Sans', sans-serif;	/* Police de caractère */
+}
+
+.PHOTOSDIS {
+	position: relative;								/* Positionnement relatif */
+}
+
+.PHOTOSDIS img {
+	position: absolute;								/* Positionnement absolu */
+	transform: translate(-50%);						/* Décalage de 50% */
+	left: 50%;										/* Positionnement à gauche */
+	width: 20%;										/* Largeur de l'image */
+	height: auto;									/* Hauteur de l'image */
+}
+
+header {
+	color: #b8c1ec;								/* Couleur du texte */
+}
+
+img {
+	text-align: center;								/* Alignement du texte */
+}
+/**************************************************/
+
+
+
+/**************************************************/
+/*forumlaire de login*/
+
+.login-form {
+	width: 340px;									/* Largeur du formulaire */
+	margin: 50px auto;								/* Marge extérieur */
+}
+
+.login-form form {
+	margin-bottom: 15px;							/* Marge en dessous du formulaire */
+	background: #487575;							/* Couleur de fond */
+	box-shadow: 4px 6px 4px #eebbc3;				/* Ombre */
+	padding: 30px;									/* Marge intérieur */
+}
+
+.login-form h2 {
+	margin: 0 0 15px;								/* Marge extérieur */
+}
+
+.form-control,
+.btn {
+	min-height: 28px;								/* Hauteur minimale */
+	border-radius: 0px;								/* Bordure */
+}
+
+.btn {
+	background: #eebbc3;							/* Couleur de fond */
+	color: #232946;								/* Couleur du texte */
+	width: 50%;										/* Largeur du bouton */
+	height: 50px; 									/* Hauteur du bouton */
+	font: 20px arial;								/* Police de caractère */
+	cursor: pointer;								/* Curseur */
+	margin-top: 20px;								/* Marge au dessus du bouton */
+}
+
+.btn:hover {
+	background: #be969c;							/* Couleur de fond */
+	color: #232946;								/* Couleur du texte */
+}
+
+form[method="post"] {								/* Méthode post */
+	margin-left: 15px;								/* Marge à gauche */
+	text-align: left;								/* Alignement du texte */
+}
+/**************************************************/
+
+
+
+/**************************************************/
+/*select*/
+
+select {
+	font-family: fantasy;							/* Police de caractère */
+	font-size: 15px;								/* Taille du texte */
+	height: 25px;									/* Hauteur du select */
+	padding-right: 5%;								/* Marge intérieur */
+}
+
+/**************************************************/
+
+/**************************************************/
+/*Bouton pour supprimer les appareils*/
+
+.supprim {
+	right: 0px;										/* Positionnement à droite */
+	background-color: #4b2d40;						/* Couleur de fond */
+	color: #bcd1f9;								/* Couleur du texte */
+	border: 2px solid #bcd1f9;						/* Bordure */
+	font-size: 20px;								/* Taille du texte */
+	font-weight: 600;								/* Gras */
+	padding: 10px;									/* Marge intérieur */
+	border-radius: 5px;								/* Bordure */
+}
+
+.supprim:hover {
+	background-color: #bcd1f9;						/* Couleur de fond */
+	color: #4b2d40;								/* Couleur du texte */
+	border: 2px solid #4b2d40;						/* Bordure */
+	cursor: pointer;								/* Curseur */
+}
+/**************************************************/
+
+
+/**************************************************/
+/*Container pour bien ranger les formulaires ou autres dans des cases*/
+
+.container2 {
+	margin-left: 40px;								/* Marge à gauche */
+	margin-bottom: 30px;							/* Marge en dessous */
+    max-width: 300px;								/* Largeur maximale */
+    padding: 20px;									/* Marge intérieur */
+    background-color: #8d5579;						/* Couleur de fond */
+    border: 4px solid #000;						/* Bordure */
+    border-radius: 5px;								/* Bordure */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);		/* Ombre */
+}
+
+/**************************************************/
+
+
+
+/**************************************************/
+/* Barre de navigation */
+
+/* Menu déroulant */
+li {
+    background-color: #8d5579;					/* Couleur de fond du menu déroulant */
+}
+
+li a {
+    text-decoration: none;						/* Supprimer le soulignement des liens */
+    color: black;								/* Couleur du texte */
+}
+
+li.menu-deroulant {
+    background-color: #da9e5a93;				/* Couleur de fond du menu déroulant */
+}
+
+.menu-deroulant>a:after {
+    content: '➜';								/* Flèche du menu déroulant */
+    font-size: 15px;							/* Taille de la flèche */
+    margin-left: 7px;							/* Espace entre le texte et la flèche */
+    display: inline-block;						/* Afficher les éléments en ligne */									
+    transition: transform 0.2s ease-in-out;		/* Animation de la flèche */
+}
+
+.menu-deroulant:hover>a:after {
+    transform: rotate(90deg);					/* Animation de la flèche */
+}
+
+/* Sous-menu */
+.sous-menu {
+    margin-top: var(--hauteur-menu);			/* Position du sous-menu */
+    width: 100%;								/* Largeur du sous-menu */
+    text-align: left;							/* Centrer le texte du sous-menu */
+    background-color: rgb(104, 104, 104);		/* Couleur de fond du sous-menu */
+    border-radius: 5px;							/* Arrondir les bords du sous-menu */
+    overflow: hidden;							/* Cacher le sous-menu */
+    max-height: 0;								/* Cacher le sous-menu */
+    transition: max-height 0.3s ease-in-out;	/* Animation du sous-menu */
+}
+
+.sous-menu>li>a {
+    height: 50px;								/* Hauteur du sous-menu */
+    padding-left: 10px;							/* Espace entre le texte et la bordure gauche */
+    width: 100%;								/* Largeur du sous-menu */
+    align-items: center;						/* Centrer le texte */
+    display: flex;								/* Afficher les éléments en ligne */
+}
+
+/* Couleur du texte au survol */
+nav>ul>li:hover>a {
+    color: #b8c1ec;							/* Couleur du texte au survol */
+}
+
+.sous-menu>li:hover {
+    background-color: rgba(33, 105, 236, 0.3);	/* Couleur de fond au survol */
+}
+
+.sous-menu>li:hover>a {
+    color: rgb(255, 255, 255);				   /* Couleur du texte au survol */
+}
+
+/* Animation de la flèche */
+.menu-deroulant>a:after {
+    transition: transform 0.2s ease-in-out;		/* Animation de la flèche */
+}
+
+/* Faire apparaître les sous-menus en dessous au survol */
+.menu-deroulant:hover>.sous-menu {
+    max-height: 50em;							/* Hauteur du sous-menu */
+}
+
+/*Barre de navigation*/
+nav {
+    width: 100%;								/* Largeur de la barre de navigation */
+    font-size: 17px;							/* Taille du texte de la barre de navigation */	
+    position: sticky;							/* Position de la barre de navigation */
+    margin-top: 0%;								/* Position de la barre de navigation */
+}
+
+nav>ul {
+    display: flex;										/* Afficher les éléments en ligne */
+    text-align: center;									/* Centrer le texte */
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);   /* Ombre portée de la barre de navigation */
+    height: var(--hauteur-menu);						/* Hauteur de la barre de navigation */
+}
+
+nav ul {
+    list-style-type: none;						/* Supprimer les puces */
+}
+
+nav>ul>li {
+    position: relative;							/* Position du texte */
+    height: 100%;								/* Hauteur de la barre de navigation */
+    flex: 1;									/* Permet de répartir les éléments sur toute la largeur */
+}
+
+nav>ul>li>a {
+    position: absolute;							/* Position du lien */
+    top: 0;										/* Position du lien */
+    left: 0;									/* Position du lien */
+    width: 100%;								/* Largeur du lien */
+    height: 100%;								/* Hauteur du lien */
+    display: flex;								/* Afficher les éléments en ligne */
+    align-items: center;						/* Centrer le text */
+    justify-content: center;					/* Centrer le texte */
+    text-decoration: none;						/* Supprimer le soulignement des liens */
+    color: black;								/* Couleur du lien */
+    transition: color 0.2s ease-in-out;			/* Animation du lien */
+}
+
+/* Animation de la barre */
+nav>ul>li:before {
+    content: "";								/* Contenu vide */
+    position: absolute;							/* Position de la barre */
+    bottom: 0;									/* Position de la barre */
+    left: 0;									/* Position de la barre */
+    width: 100%;								/* Largeur de la barre */
+    height: 2px; 								/* Hauteur de la barre */
+    background-color: #b8c1ec; 			   /* Couleur de la barre */
+    transform: scaleX(0); 					    /* Cacher la barre */
+    transition: transform 0.2s ease-in-out;     /* Animation de la barre */
+}
+
+nav>ul>li:hover:before {
+    transform: scaleX(1);						/* Animation de la barre */
+}
+
+/* Cases entre les liens */
+nav>ul>li:not(:last-child)::after {
+    content: "";								/* Contenu vide */
+    position: absolute;							/* Position de la case */
+    top: 50%;									/* Position de la case */
+    right: 0;									/* Position de la case */
+    transform: translateY(-50%);				/* Position de la case */
+    width: 3px;									/* Largeur de la case */
+    height: 50%;								/* Hauteur de la case */
+    background-color: #b8c1ec;					/* Couleur de la case */
+}
+
+
+/**************************************************/
+
+
+
+/**************************************************/
+/*formulaire*/
+
+form {
+    position: absolute; 						/*position du formulaire*/
+    top: 50%; 									/*centrer le formulaire*/
+    left: 50%; 									/*centrer le formulaire*/
+    transform: translate(-50%, -50%); 			/*centrer le formulaire*/
+	max-width: 1000px; 							/*largeur du formulaire*/
+	margin: 50px auto;							/*centrer le formulaire*/
+	padding: 20px; 								/*espace entre les bords et le texte*/
+	background-color: #8d5579; 		   	   /*couleur de fond*/
+	border: 4px solid #000; 			   	   /*bordure de 4px*/
+	border-radius: 5px; 						/*arrondir les bords*/
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  /*ombre portée*/
+  }
+  
+  form label {
+	text-align: left;							/*alignement du texte à gauche*/
+	font: 20px arial; 							/*police d'écriture de 20px pour mieux voir*/
+	margin-bottom: 10px; 						/*espace entre les cases*/
+  }
+  
+  form input,
+  form select {
+	width: 100%; 								/*largeur de la case*/
+	margin-bottom: 20px; 						/*espace entre les cases*/
+	box-sizing: border-box; 					/*la taille de la case prend en compte la bordure*/
+  }
+
+  form input,
+  form select {
+	height: 30px; 								/*hauteur de la case*/
+	font: 20px arial; 							/*police d'écriture de 20px pour mieux voir*/
+	padding-left: 10px; 						/*décaler le texte de 10pc à droite pour eviter que l'écriture colle la case*/
+	padding-right: 10px; 						/*décaler le texte de 10px à gauche pour eviter que l'écriture colle la case*/
+	box-sizing: border-box; 					/*la taille de la case prend en compte la bordure*/
+  }
+  
+  .bouton {
+	width: 100%; 								/*largeur du bouton*/
+	height: 50px; 								/*hauteur du bouton*/
+	font: 20px arial; 							/*police d'écriture de 20px pour mieux voir*/
+	background-color: grey; 			   	   /*couleur de fond*/
+	color: #fff; 							   /*couleur du texte*/
+	border: 4px solid #000;				   /*pas de bordure*/
+	border-radius: 5px; 						/*arrondir les bords*/
+	cursor: pointer; 							/*curseur de souris*/
+  }
+  
+  .bouton:hover {
+	background-color: #8d6c52; 				/*couleur de fond au survol*/
+  }
+
+/**************************************************/
+  
+
+
+/**************************************************/
+/*tableau*/
+
+table {
+	border-collapse: collapse;					/*supprimer les bordures*/
+	margin-left: 40px;							/*marge à gauche*/
+	margin-right: 40px;							/*marge à droite*/
+  }
+
+.tablegroupement {
+	border-collapse: collapse;					/*supprimer les bordures*/
+	margin: auto;								/*centrer le tableau*/
+  }
+    
+  
+  td {
+	border: 3px solid #4b2d40;						/*bordure de 3px*/
+	background-color: #8d5579;						/*couleur de fond*/
+	color: #eebbc3;								/*couleur du texte*/
+	text-align: center;								/*alignement du texte au centre*/
+	padding: 5px;									/*espace entre les bords et le texte*/
+	vertical-align: middle;							/*alignement vertical*/
+	width: 250px;									/*largeur de la case*/
+	border-radius: 5% 0%;							/*arrondir les bords*/
+	transition: background-color 0.3s ease-in-out;	/*animation de la couleur de fond*/
+  }
+
+  th {
+	border: 3px solid #4b2d40;						/*bordure de 3px*/
+	background-color: #4b2d40;						/*couleur de fond*/
+	color: #eebbc3;								/*couleur du texte*/
+	text-align: center;								/*alignement du texte au centre*/
+	padding: 5px;									/*espace entre les bords et le texte*/
+	vertical-align: middle;							/*alignement vertical*/
+	width: 250px;									/*largeur de la case*/
+	border-radius: 5% 0%;							/*arrondir les bords*/
+	transition: background-color 0.3s ease-in-out;	/*animation de la couleur de fond*/
+  }
+  
+
+  td:hover {
+	background-color: #272727;						/*couleur de fond au survol*/
+	color: #ffffff;								/*couleur du texte au survol*/
+  }
+  
+  tr:nth-child(even) {
+	background-color: #000000;						/*couleur de fond des lignes paires*/
+  }
+  
+  tr:hover td {
+	background-color: #573149;						/*couleur de fond des lignes au survol*/
+	color: #ffffff;								/*couleur du texte des lignes au survol*/
+  }
+
+/**************************************************/
+
+
+
+/**************************************************/
+/*footer*/
+
+footer {
+	background-color: rgb(104, 58, 87);	/* Couleur de fond du footer */
+	text-align: center;						/* Alignement horizontal du texte */
+	position: fixed;						/* Positionnement du footer */
+	bottom: 0;								/* Position du footer en bas de page */
+	width: 100%;							/* Largeur du footer */
+	color: #b8c1ec;						/* Couleur du texte du footer */
+	height: 40px;							/* Hauteur du footer */
+	display: flex;							/* Permet d'aligner les éléments */
+	align-items: center; 					/* Centrer verticalement */
+	justify-content: center;				/* Centrer horizontalement */
+}
+
+/**************************************************/
+
+
+
+/**************************************************/
+/*Paragraphes*/
+
+p {
+	color: #232946b2;						/*couleur du texte*/
+	font-size: 20px;						/*taille du texte*/
+	font-family: 'Roboto', sans-serif;		/*police d'écriture*/
+	text-align: righ;						/*alignement du texte à droite*/
+}
+
+/**************************************************/
